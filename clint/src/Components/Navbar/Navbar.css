@@ -1,0 +1,21 @@
+.navbar {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+}
+
+.list-link {
+    list-style: none;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(176, 176, 176);
+    transition-duration: 0.4s;
+}
+
+.list-link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.list-link.active{
+    color: white;
+}

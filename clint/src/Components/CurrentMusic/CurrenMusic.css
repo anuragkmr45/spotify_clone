@@ -1,0 +1,20 @@
+.current {
+    position: fixed;
+    height: 6rem;
+    bottom: 0%;
+    z-index: 1000;
+    width: 100%;
+    background-color: #171717;
+}
+
+.icons {
+    color: rgba(201, 201, 201, 0.923);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    transition-duration: 0.5s;
+}
+
+.icons:hover {
+    color: white;
+}
